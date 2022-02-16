@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 12pt;
+    background-color: lightblue;
+}
+
+h1 {
+    text-align: center;
+    height: 50px;
+}
+
+hr {
+	border: none;
+    height: 10px;
+    color: red;
+    background-color: red;
+}
+
+li.a {
+	color: red;
+}
