@@ -1,0 +1,174 @@
+<!doctype html>
+
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Liste domaći</title>
+        <link rel="stylesheet" href="stilovi.css"> 
+    </head>
+
+    <body>
+            
+        <h1>Šta je HTML?</h1>
+        <hr>
+
+        <ul type="square">
+            <li><b>HTML je jezik za opisivanje web strana</b></li>
+            <li><b>HTML - Hyper Text Markup Language</b></li>
+            <li><b>Markup language je skup markup tagova</b></li>
+        </ul>
+        
+        <ol>
+            <li class="a">HTML tagovi</li>
+            <ol type="a">
+                <li>Tag je ključna reč okružena sa < i >, npr</li>
+                <li>Tagovi su najčešće u paru, </li>
+                <li>Prvi je start tag (opening tag), a drugi end tag (closing tag)</li>
+                <li>Ne razlikuju se velika i mala slova – preporuka je mala </li>
+            </ol>
+
+            <li class="a">HTML dokument = Web strana</li>
+            <ol type="a">
+                <li>Web browser čita HTML dokument i prikazuje ga kao web stranu</li>
+                <li>Ime HTML dokumenta se završava sa .htm ili .html</li>
+                <li>Za pregled u browser-u RUN -> LAUNCH IN CHROME</li>
+            </ol>
+            
+            <li class="a">HTML naslovi (Headings)</li>
+            <ol type="a">
+                <li>Koriste se tagovi h1 do h6</li>
+                <li>Važnost pravilne upotrebe naslova</li>
+            </ol>
+            
+            <li class="a">HTML pasusi (Paragraphs) / prelomi reda (Line Breaks)</li>
+            <ul type="disc"> 
+                <li>Koriste se tagovi  p i  br</li>
+            </ul>
+
+            <li class="a">HTML VEZE (Links)</li>
+            <ul type="square">
+                <li>Koristi se tag a </li>
+                <li>Veza može pokazivati na bilo koji resurs na netu - HTML stranu, sliku, zvičnu ili video datoteku...</li>
+                <li>TARGET atribut određuje gde se otvara link </li>
+                <li>NAME atribut određuje imenovano sidro u HTML dokumentu </li>
+            </ul>
+            
+            <li class="a">SLANJE mail-a</li>
+                href="mailto: ime@domen.com ?Subject=PredmetPoruke"
+
+            <li class="a">HTML SLIKE (Images)</li>
+            <dl>
+                <dt>Koristi se tag  img </dt>
+                    <dd>Npr: img src="/slika.jpg" /</dd>
+                <dt>Alt atribut određuje alternativni tekst za sliku </dt>
+                    <dd>Npr:img src="/slika.gif" alt="Opis slike" /</dd>
+                <dt>Podešavanje širine / visine - Atributi width i height</dt>
+            </dl>
+
+            <li class="a">HTML ATRIBUTI (Attributes)</li>
+            <ul type="disc">
+                <li>Atributi obezbeđuju dodatne informacije o elementu</li>
+                <li>Uvek se navode u start tagu</li>
+                <li>Pišu se u obliku imeatributa="vrednostatributa"</li>
+            </ul>
+
+            <li class="a">HTML LINIJE (Lines)</li>
+            <ul type="disc">
+                <li>Koristi se tag  hr/</li>
+            </ul>
+
+            <li class="a">HTML FORMATIRANJE TEKSTA</li>
+                Koriste se tagovi za formatiranje (Formatting Tags):
+                <ul type="disc">
+                    <li>b - podebljani (bold) tekst</li>
+                    <li>big - veća slova</li>
+                    <li>em - naglašen tekst</li>
+                    <li>i - kurziv (italic) tekst</li>
+                    <li>small - manja slova</li>
+                    <li>strong- jača sloba, podebljani tekst</li>
+                    <li>sub - indeks</li>
+                    <li>sup - eksponent</li>
+                    <li>ins - umetnuti tekst</li>
+                    <li>del - obrisani tekst</li>
+                    <li>code - računarski kod</li>
+                    <li>abbr - skraćenica</li>
+                    <li>cite- citat</li>
+                </ul>
+
+            <li class="a">HTML STILOVI (Styles)</li>
+                Stilovi obezbeđuju univerzalan način za doterivanje HTML elemenata <br>
+                Mogu se primeniti direktno na HTML element korišćenjem style atributa ili indirektno pomoću posebne CSS datoteke <br>
+                
+                Primeri:
+                <ul type="square">
+                    <li>Boja pozadine - body style="background-color:yellow"</li>
+                    <li>Font, boja, pozadina - p style="font-family:courier new; color:red; font-size:20px"</li>
+                    <li>Poravnanje - h1 style="text-align:center"</li>
+                </ul>
+
+            <li class="a">HTML TABELE (Tables)</li>
+                Koriste se sledeći tagovi:
+                <ul type="square">
+                    <li>table - za tabelu</li>
+                    <li>tr - za red</li>
+                    <li>td - za ćeliju</li>
+                    <li>th - za ćelije u zaglavlju</li>
+                    <li>caption - za naslov (odmah iz table taga)</li>
+                </ul>
+                Sadržaj ćelije može biti tekst, slike, liste, pasusi, forme, horizontalne linije, tabele... <br>
+                
+                Atributi:
+                <ul type="square">
+                    <li>border - određuje okvir</li>
+                    <li>colspan - spaja kolone</li>
+                    <li>rowspan - spaja redove</li>
+                    <li>cellpadding - dodaje prostor oko sadržaja ćelija</li>
+                    <li>cellspacing - dodaje prostor između ćelija</li>
+                    <li>bgcolor – postavlja boju pozadine</li>
+                    <li>background – postavlja sliku kao pozadinu</li>
+                    <li>width/height – postavljaju širinu/visinu u px ili %</li>
+                    <li>align – određuje poravnanje sadržaja</li>
+                    <li>Da bi tabela očuvala pravilnu strukturu u prazne ćelije treba staviti </li>
+                </ul>
+
+            <li class="a">HTML LISTE (Lists)</li>
+            <ol type="a">
+                <li>Nenumerisana lista (Unordered List) </li>
+                <ul type="square">
+                    <li>Počinje ul tagom</li>
+                    <li>Svaka stavka počinje li tagom</li>
+                    <li>Atribut type: </li>
+                    <ol>
+                        <li>square - kvadrat</li>
+                        <li>circle - krug</li>
+                        <li>disc - disk</li>
+                    </ol>
+                </ul>
+
+                <li>Numerisana liste (Ordered List)</li> 
+                <ul type="circle">
+                    <li>Počinje ol tagom</li>
+                    <li>Svaka stavka počinje li tagom</li>
+                    <li>Atribut type: </li>
+                    <ol>
+                        <li>A - velika slova</li>
+                        <li>a - mala slova</li>
+                        <li>I - rimski brojevi</li>
+                        <li>i - mali rimski brojvi</li>
+                        <li>1 - normalna numeracija (podrazumevano)</li>
+                    </ol>
+                </ul>
+
+                <li>Lista definicija (Definition List)</li>
+                <ul type="circle">
+                    <li> dl - lista definicija</li>
+                    <li> dt - pojam</li>
+                    <li> dd - definicija pojma</li>
+                </ul>
+
+                <li>Ugnježdene liste</li>
+            </ol>
+
+        </ol>
+    </body>
+</html>
