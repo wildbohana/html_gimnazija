@@ -1,0 +1,33 @@
+body {
+	background-color: lightyellow;
+	padding-left: 150px;
+	padding-right: 150px;
+	text-align: centered;
+}
+
+h1 {
+	text-transform: capitalize;
+	font-weight: bold;
+	font-style: italic;
+}
+
+h2 {
+	text-transform: capitalize;
+	font-weight: bold;
+	font-style: italic;
+}
+
+h3 {
+	text-transform: capitalize;
+	font-weight: bold;
+	font-style: italic;
+}
+
+a {
+	text-decoration: none;
+	font-size: 14px;
+}
+
+p {
+	text-indent: 20px;
+}
