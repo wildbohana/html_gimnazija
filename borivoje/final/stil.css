@@ -31,3 +31,10 @@ a {
 p {
 	text-indent: 20px;
 }
+
+.z {	
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
